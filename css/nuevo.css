@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", sans-serif;
+    
+  }
+  
+  main {
+    padding: 50px;
+  }
+
+  /*tamaños tipograficos generales*/
+p {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 42px;
+    color: #375277;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #9f5679;
+  }
+  
+  li {
+    font-size: 12px;
+  }
+
+
+  /*footer*/
+.contendor_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #9f5679;
+  }
+  .contendor_footer p {
+    margin: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .contendor_footer ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  .contendor_footer ul li {
+    margin: 5px;
+    font-weight: 200;
+  }
+  .contendor_footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+/* header 2*/
+header {
+    position: sticky !important;
+    top: 0;
+    z-index: 3;
+  }
+  header .contenedor_nav {
+    background-color: #375277;
+    padding: 15px 40px;
+  }
+  header .contenedor_nav .container-fluid .contenedor_logo_txt {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  header .contenedor_nav .container-fluid .contenedor_logo_txt img {
+    display: none !important;
+  }
+  header .contenedor_nav .container-fluid .contenedor_boton {
+    border: none;
+  }
+  header .contenedor_nav .container-fluid .contenedor_boton .boton_nav {
+    width: 30px;
+    color: #ffffff;
+  }
+  header .contenedor_nav .container-fluid .contenedor_boton:hover {
+    border: none;
+    color: transparent;
+  }
+  
+  .item_menu {
+    color: #ffffff;
+    margin: 0px 30px;
+  }
+
+/* proyectos*/
+.titulo_proyectos {
+    margin: 10px 10px;
+    text-align: center;
+  }
+  
+  .contenedor_seleccion_proyectos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    margin: 20px 0px 35px;
+  }
+
+
+  /*  ver*/
+
+.productos{
+    display: flex;
+    flex-direction: column ;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+   
+}
+.producto{
+    
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+flex-direction: column;
+margin: 10px;
+padding: 1rem;
+gap: 16px;
+
+}
+.producto img{
+    width: 1000px;;
+}
+
+/*clases formulario */
+
+.invalido {
+    border: 2px solid red;
+}
+
+
+.modal-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+
+}
+#modal{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.modal-active{
+    visibility: visible;
+    opacity: 1;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal-container2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+
+}
+#modal2{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.modal-active2{
+    visibility: visible;
+    opacity: 1;
+}
