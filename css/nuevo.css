@@ -117,6 +117,7 @@ header {
 .productos{
     display: flex;
     flex-direction: column ;
+    
 }
 
 #contenedor-productos{
@@ -124,10 +125,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
+  
    
 }
 .producto{
-    
+  background-color: azure;
     justify-content: center;
     border: 2px solid black;
     display: flex;

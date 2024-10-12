@@ -1,14 +1,14 @@
 
     // Array de productos
     const stockProductos = [
-        { id: 1, nombreObra: "Obra 1", nombreAutor: "Autor 1", desc: "pintura", precio: 1000, img: "../image/obra_1.jpg" },
-        { id: 2, nombreObra: "Obra 2", nombreAutor: "Autor 2", desc: "pintura", precio: 1000, img: "../image/obra_2.jpg" },
-        { id: 3, nombreObra: "Obra 3", nombreAutor: "Autor 3", desc: "pintura", precio: 1000, img: "../image/obra_3.jpg" },
-        { id: 4, nombreObra: "Obra 4", nombreAutor: "Autor 4", desc: "pintura", precio: 1000, img: "../image/obra_4.jpg" },
-        { id: 5, nombreObra: "Obra 5", nombreAutor: "Autor 5", desc: "pintura", precio: 1000, img: "../image/obra_5.jpg" },
-        { id: 6, nombreObra: "Obra 6", nombreAutor: "Autor 6", desc: "pintura", precio: 1000, img: "../image/obra_6.jpg" },
-        { id: 7, nombreObra: "Obra 7", nombreAutor: "Autor 7", desc: "pintura", precio: 1000, img: "../image/obra_6.jpg" },
-        { id: 8, nombreObra: "Obra 8", nombreAutor: "Autor 8", desc: "pintura", precio: 1000, img: "../image/obra_7.jpg" },
+        { id: 1, nombreObra: "Obra 1", nombreAutor: "Autor 1", desc: "pintura", precio: 1000, img: "./image/obra_1.jpg" },
+        { id: 2, nombreObra: "Obra 2", nombreAutor: "Autor 2", desc: "pintura", precio: 1000, img: "./image/obra_2.jpg" },
+        { id: 3, nombreObra: "Obra 3", nombreAutor: "Autor 3", desc: "pintura", precio: 1000, img: "./image/obra_3.jpg" },
+        { id: 4, nombreObra: "Obra 4", nombreAutor: "Autor 4", desc: "pintura", precio: 1000, img: "./image/obra_4.jpg" },
+        { id: 5, nombreObra: "Obra 5", nombreAutor: "Autor 5", desc: "pintura", precio: 1000, img: "./image/obra_5.jpg" },
+        { id: 6, nombreObra: "Obra 6", nombreAutor: "Autor 6", desc: "pintura", precio: 1000, img: "./image/obra_6.jpg" },
+        { id: 7, nombreObra: "Obra 7", nombreAutor: "Autor 7", desc: "pintura", precio: 1000, img: "./image/obra_6.jpg" },
+        { id: 8, nombreObra: "Obra 8", nombreAutor: "Autor 8", desc: "pintura", precio: 8000, img: "./image/obra_7.jpg" },
     ];
 
     // Variables para el carrito y total
